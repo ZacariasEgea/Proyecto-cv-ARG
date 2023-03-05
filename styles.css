@@ -1,0 +1,163 @@
+* {
+    box-sizing: 0;
+    margin: 0;
+    padding: 0;
+}
+@media only screen and (max-width: 600px) 
+{
+  body {
+    background-color: cornflowerblue;
+  }
+}
+section {
+    height: 50vh;
+    
+}
+
+section#perfil {
+    background-color:none;
+    display: flex;
+    flex: center;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    
+   }
+.foto-de-perfil {
+    margin: 90px;
+    border-radius: 10px;
+    width: 300px;
+    border: 3px solid rgb(56, 175, 184)
+}
+.foto-de-perfil img {
+    width: 100%;
+}    
+h1 {
+    font-size: 80px;
+    text-transform: uppercase;  
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;;
+    
+}
+h2 {
+    font-size: 40px;
+    text-align: center;
+    background-color: rgb(42, 84, 199);
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+}
+h3 {
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+
+}
+h4 {
+    font-size: 30px;
+    text-align: left;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    font-style: oblique;
+
+}
+h5 {
+    font-size: 10px;
+    text-align: center;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+     }
+h6 {
+    font-size: 60px;
+    text-align: left;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+     }   
+.lista-de-experiencia {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(57, 164, 190);
+    font-style: none;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+
+}
+.detalles-de-experiencia {
+    margin: 100px;
+    border-radius: 10px;
+    width: 400px;
+    border: 3px solid rgb(187, 18, 6)
+        
+}
+.detalles-de-experiencia img {
+    width: 100%;
+    }
+
+header {
+    position: sticky;
+    top: 0;
+    padding-top: 0px;
+    padding-bottom: 0;
+    background-color: aquamarine;
+
+
+}
+    
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px 30px;
+    background-color: aquamarine;
+    font-style: italic;
+}
+footer{
+    position: static;
+    padding-bottom: 10px 20px;
+    border-color: rgb(56, 5, 104);
+    text-align: center;
+    text-align: center;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    }
+.lista-de-informacion {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(57, 164, 190);
+    
+ }
+button {
+    width: 200px;
+    height: 50px;
+    border: none;
+    font-size: 40px;
+    color: rgb(42, 84, 199);
+    background-color: aquamarine;
+
+
+}
+button#Consultas{
+    width: 0px;
+    height: 0px;
+    border: none;
+    font-size: 50px;
+    color: rgb(42, 84, 199);
+    background-color: none;
+    font-size: 40px;
+
+}
+section#experiencia {
+    background-color:rgb(42, 84, 199);
+    display: flex;
+    flex: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+p 
+{ font-size: 1.3rem;
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+
+} 
+
